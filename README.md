@@ -21,6 +21,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
+
 Here's a walkthrough of implemented user stories:
 
-![instagram1](https://user-images.githubusercontent.com/75554919/156952801-7113b421-f614-4e73-9d32-1f3bb506a9f2.gif)
+![instagram2](https://user-images.githubusercontent.com/75554919/156953669-9bb793a2-9ea4-43e4-9c95-cff70fa43b92.gif)
