@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Instagram
 //
-//  Created by Sai on 3/6/22.
+//  Created by Sai on 3/4/22.
 //
 
 import UIKit
@@ -15,18 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        
         let parseConfig = ParseClientConfiguration {
-                    $0.applicationId = "azbt97vbWkVQf0jzeyG7KyKHJHIhegjQ4fgyIWsp"
-                    $0.clientKey = "Z0Kc6H5tOQBD5MLCXFF2U5qzKPijCO3bHtemsNpl"
+                    $0.applicationId = "QEQoUolrqoGYH5ptLtj8hoqzKf3kqGNyuvTQIbNd" // <- UPDATE
+                    $0.clientKey = "wm0X5C2s4uBbPWqoN5NtHVZjvOoXCjbR8PWGYM7d" // <- UPDATE
                     $0.server = "https://parseapi.back4app.com"
             }
-            Parse.initialize(with: parseConfig)
-        
-        
+        Parse.initialize(with: parseConfig)
         return true
     }
+    
 
     // MARK: UISceneSession Lifecycle
 
@@ -44,4 +41,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
